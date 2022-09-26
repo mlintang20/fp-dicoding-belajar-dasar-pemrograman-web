@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  /* color: #00a2c6; */
+  color: #fe0000;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  /* background-color: #00a2c6; */
+  background-color: #ae0000;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #fe0000;
+  font-weight: bold;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#prestasi img {
+  width: 50%;
+}
+
+.profile img {
+  width: 200px;
+  border: 3px solid red;
+  border-radius: 10%;
+  padding: 2px;
+}
+
+.card {
+  box-shadow: 0 10px 8px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.jumbotron {
+  padding: 50px;
+  /* background-color: #00c8eb; */
+  background-color: #ce0000;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav ul {
+  display: flex;
+  text-align: center;
+}
+
+nav {
+  background-color: #ae0000;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}
+
+#content {
+  width: 75%;
+  padding-right: 20px;
+}
+
+.aside-container {
+  display: flex;
+  flex-direction: column;
+}
+
+aside article section h3 {
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  aside article section table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+header {
+  display: inline;
+}
+
+#switch {
+  cursor: pointer;
+}
+
+/* Dark Mode */
+.dark-main {
+  background-color: #1f1f1f;
+  color: rgb(255, 225, 225);
+}
+
+.dark-card {
+  box-shadow: 0 5px 3px 0 rgb(211, 90, 90);
+}
