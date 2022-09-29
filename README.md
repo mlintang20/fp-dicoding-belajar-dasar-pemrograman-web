@@ -8,6 +8,8 @@ Website ini juga sudah menerapkan **HTML Semantic Element**, seperti: _header, n
 
 JavaScript pada website ini dibutuhkan untuk fitur **light mode** dan **dark mode**. Dengan membuat sebuah function dan menerapkan manipulasi DOM (Document Object Model), fitur light mode dan dark mode dapat difungsikan dengan baik.
 
+Website ini sudah di-deploy menggunakan **Github Pages** dengan URL sebagai berikut: https://mlintang20.github.io/fp-dicoding-belajar-dasar-pemrograman-web/
+
 Berikut adalah screenshot dari website:
 
 ![screencapture-mlintang20-github-io-fp-dicoding-belajar-dasar-pemrograman-web-2022-09-27-11_27_32](https://user-images.githubusercontent.com/90432657/192566113-d261e281-ea20-46e6-958d-b514410d69f1.png)
