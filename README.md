@@ -12,4 +12,8 @@ Website ini sudah di-deploy menggunakan **Github Pages** dengan URL sebagai beri
 
 Berikut adalah screenshot dari website:
 
+_Light Mode_
 ![screencapture-mlintang20-github-io-fp-dicoding-belajar-dasar-pemrograman-web-2022-09-27-11_27_32](https://user-images.githubusercontent.com/90432657/192566113-d261e281-ea20-46e6-958d-b514410d69f1.png)
+
+_Dark Mode_
+![screenshot-dark-mode-fp-dicoding-belajar-dasar-pemrograman-web-2022](https://user-images.githubusercontent.com/90432657/192823228-918e2c15-bb7f-4075-b241-39a54019747e.png)
